@@ -66,7 +66,7 @@ func main() {
 					Ts := ComTs(j,Tv, Xv)
 					Xs := FindXs(j, Ts)
 					l := strconv.Itoa(j) + " " + fltostr(Ts) + " " + fltostr(Xs[0]) + " " + fltostr(Xs[1]) + " " + fltostr(Xs[2])
-					fmt.Println(l)
+					//fmt.Println(l)
 					hold = append(hold,l)
 				}
 			}
